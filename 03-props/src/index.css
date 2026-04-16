@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+html, body {
+  background-color: #212121;
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIXED: use .card (small c) */
+.card {
+  color: white;
+  width: 320px;
+  padding: 25px;
+  border-radius: 20px;
+  background: #2c2c2c;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* FIXED margin */
+.card p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+/* FIXED padding */
+.card button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #ddd;
+}
