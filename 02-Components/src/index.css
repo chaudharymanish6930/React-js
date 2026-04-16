@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'helvetica neue';
+}
+html, body{
+  background-color: #212121;
+  height:100%;
+  width:100%;
+}
+
+.card{
+  background-color: rgba(20, 145, 20, 0.267);
+  color:aquamarine;
+  border-radius: 14px;
+  padding:40px;
+  border:25px;
+}
