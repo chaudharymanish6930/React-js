@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body{
+  color:white;
+  background-color: #212221;
+  height:100%;
+  width:100%;
+}
+
+button{
+  padding:40px 40px;
+  margin:40px;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 100px;;
+  background-color: rgb(72, 47, 47);
+  width: fit-content;
+  padding:30px 40px;
+  margin:20px;
+}
