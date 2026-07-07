@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
@@ -14,6 +14,10 @@ const App = () => {
         <a href="/">Home</a>
         <a href="/about">About Us</a>
         <a href="/contact">Contact</a>
+        <br/>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/contact">Contact</Link>
       </h2>
       <Navbar/>
       <Routes>
