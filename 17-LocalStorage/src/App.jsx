@@ -18,8 +18,10 @@ const App = () => {
     age:19,
     city:"Greater Noida"
   }
-  localStorage.setItem('user',user) // it set but in [object Object] form
-  // local storage store the only string form 
+  localStorage.setItem('user',user) 
+
+  
+
   localStorage.setItem('user2',JSON.stringify(user)) 
 
   const user1=localStorage.getItem('user2')
