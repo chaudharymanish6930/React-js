@@ -20,8 +20,6 @@ const App = () => {
   }
   localStorage.setItem('user',user) 
 
-  
-
   localStorage.setItem('user2',JSON.stringify(user)) 
 
   const user1=localStorage.getItem('user2')
